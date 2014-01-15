@@ -1,7 +1,7 @@
 UIView-NSLayoutConstraint
 =========================
 
-A UIView category to make programmatic auto layout readable with less code
+A UIView category to make programmatic autolayout code more elegant and readable with less code.
 
 Spacing between two views 
 -------------------------
@@ -24,15 +24,7 @@ to:
 [parentView addConstraint:[childView1 is:10 fromTopView:childView2]];
 ```
 
-Visually, this ia equivalent to:
-
-[childView2]
-     |
-     10
-     |
-[childView1]
-
-There are similar methods:
+Similar methods:
 
 ```
 -(NSLayoutConstraint *) is: (CGFloat) distance fromRightView: (UIView *) other;

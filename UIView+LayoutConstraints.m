@@ -70,7 +70,7 @@
                                        constant:0];
 }
 
--(NSLayoutConstraint *)pinWidth:(CGFloat) width {
+-(NSLayoutConstraint *)pinWidth:(CGFloat)width {
   return [NSLayoutConstraint constraintWithItem:self
                                       attribute:NSLayoutAttributeWidth
                                       relatedBy:NSLayoutRelationEqual
@@ -80,7 +80,7 @@
                                        constant:width];
 }
 
--(NSLayoutConstraint *)pinHeight:(CGFloat) height {
+-(NSLayoutConstraint *)pinHeight:(CGFloat)height {
   return [NSLayoutConstraint constraintWithItem:self
                                       attribute:NSLayoutAttributeHeight
                                       relatedBy:NSLayoutRelationEqual
@@ -169,7 +169,7 @@
                                        constant:0];
 }
 
--(NSLayoutConstraint *)distanceFromParentLeftEdge:(CGFloat) distance {
+-(NSLayoutConstraint *)distanceFromParentLeftEdge:(CGFloat)distance {
   return [NSLayoutConstraint constraintWithItem:self
                                       attribute:NSLayoutAttributeLeft
                                       relatedBy:NSLayoutRelationEqual
@@ -179,7 +179,7 @@
                                        constant:distance];
 }
 
--(NSLayoutConstraint *)distanceFromParentRightEdge:(CGFloat) distance {
+-(NSLayoutConstraint *)distanceFromParentRightEdge:(CGFloat)distance {
   return [NSLayoutConstraint constraintWithItem:self.superview
                                       attribute:NSLayoutAttributeRight
                                       relatedBy:NSLayoutRelationEqual
@@ -189,7 +189,7 @@
                                        constant:distance];
 }
 
--(NSLayoutConstraint *)distanceFromParentTopEdge:(CGFloat) distance {
+-(NSLayoutConstraint *)distanceFromParentTopEdge:(CGFloat)distance {
   return [NSLayoutConstraint constraintWithItem:self
                                       attribute:NSLayoutAttributeTop
                                       relatedBy:NSLayoutRelationEqual
@@ -199,7 +199,7 @@
                                        constant:distance];
 }
 
--(NSLayoutConstraint *)distanceFromParentBottomEdge:(CGFloat) distance {
+-(NSLayoutConstraint *)distanceFromParentBottomEdge:(CGFloat)distance {
   return [NSLayoutConstraint constraintWithItem:self.superview
                                       attribute:NSLayoutAttributeBottom
                                       relatedBy:NSLayoutRelationEqual
